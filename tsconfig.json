@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    //Qual diretório irá os arquivos covertidos para Js
+    "outDir": "./dist",
+    //Ira gerar o nosso código em uma versão que os browsers entendem
+    "module": "CommonJS",
+    //Em qual versão de ES o nosso código convertido vai ser gerado
+    "target":"ES2019",
+    //Entender o import
+    "esModuleInterop": true,
+    //Permite arquivos JS no projeto
+    "allowJs": true,
+  }
+}
