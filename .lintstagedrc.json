@@ -1,5 +1,11 @@
 {
   "*.ts": [
+<<<<<<< HEAD
     "eslint 'src/**' --fix"
+=======
+    "eslint 'src/**' --fix",
+    "yarn test:staged",
+    "git add"
+>>>>>>> cd576f49d887ad4b3e9ee0e8e730bcd5cda91d4d
   ]
 }
